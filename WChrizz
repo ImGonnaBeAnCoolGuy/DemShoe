@@ -1,3 +1,12 @@
+local Sound = Instance.new("Sound",game:GetService("SoundService"))
+Sound.SoundId = "rbxassetid://3398620867"
+Sound:Play()
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = ("Slowmotion Script");
+	Text = "Plis SUBCRIBE To @xChrizzc 👉🏿👈🏿";
+	Icon = "rbxthumb://type=Asset&id=95648677932353&w=150&h=150"})
+Duration = 30;
+
 --[[
  .____                  ________ ___.    _____                           __                
  |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
